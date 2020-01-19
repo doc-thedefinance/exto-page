@@ -4,19 +4,45 @@ sections:
   - section_id: hero
     component: hero_block.html
     type: heroblock
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'Hi, I''m DOC, the author of The DeFinance.'
     content: >-
       This section can contain a subtitle or tagline. The recommended length is
       one to three sentences, but can be changed as you prefer.
-  - section_id: latest-projects
-    component: portfolio_block.html
-    type: portfolioblock
-    layout_style: mosaic
-    title: Recent Work
+  # - section_id: latest-projects
+  #   component: portfolio_block.html
+  #   type: portfolioblock
+  #   layout_style: mosaic
+  #   title: Recent Work
     subtitle: An optional subtitle of the section
     num_projects_displayed: 6
     view_all_text: View All
     view_all_url: portfolio/index.html
+  # - section_id: testimonials
+  #   component: testimonials_block.html
+  #   type: testimonialsblock
+  #   title: Testimonials
+  #   subtitle: An optional subtitle of the section
+  #   testimonialslist:
+  #     - author: John Doe
+  #       avatar: images/john_doe.jpg
+  #       content: >-
+  #         Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
+  #         nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  #     - author: Jane Roe
+  #       avatar: images/jane_roe.jpg
+  #       content: >-
+  #         Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
+  #         convallis, interdum ligula vel, pretium diam. Integer commodo sem at
+  #         dui sollicitudin, vel posuere justo laoreet.
+  - section_id: latest-posts
+    component: posts_block.html
+    type: postsblock
+    title: Blog
+    subtitle: My two cents about some topics
+    num_posts_displayed: 2
+    actions:
+      - label: View Blog
+        url: blog/index.html
   - section_id: services
     component: services_block.html
     type: servicesblock
@@ -42,32 +68,6 @@ sections:
           Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
           justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
           lorem ipsum, non efficitur urna viverra et.
-  - section_id: testimonials
-    component: testimonials_block.html
-    type: testimonialsblock
-    title: Testimonials
-    subtitle: An optional subtitle of the section
-    testimonialslist:
-      - author: John Doe
-        avatar: images/john_doe.jpg
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/jane_roe.jpg
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-  - section_id: latest-posts
-    component: posts_block.html
-    type: postsblock
-    title: Latest from the Blog
-    subtitle: An optional subtitle of the section
-    num_posts_displayed: 2
-    actions:
-      - label: View Blog
-        url: blog/index.html
   - section_id: contact
     component: contact_block.html
     type: contactblock

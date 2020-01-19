@@ -1,16 +1,16 @@
-title: Stackbit Exto Theme
+title: The DeFinance
 baseurl: /
 permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
 color_scheme: light
-accent_color: pink
+accent_color: default
 header:
-  title: Exto
+  title: The DeFinance
   has_nav: true
 footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
+  content: '&copy; The DeFinance. All rights reserved.'
   links:
     - text: Made with Stackbit
       url: 'https://www.stackbit.com'
