@@ -6,8 +6,7 @@ sections:
     type: heroblock
     title: 'Hi, I''m DOC, the author of The DeFinance.'
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      This page will cover topics such as <b>Cryptocurrencies</b>, <b>Digital Assets</b>, <b>DeFi</b> (Decentralized Finance), <b>P2P Lending</b> and <b>Web Development</b>. Its goal is to inform, educate and promote productive discusssions through news, data and opinions.
   # - section_id: latest-projects
   #   component: portfolio_block.html
   #   type: portfolioblock
@@ -43,36 +42,31 @@ sections:
     actions:
       - label: View Blog
         url: blog/index.html
-  - section_id: services
-    component: services_block.html
-    type: servicesblock
-    title: What We Do
-    subtitle: An optional subtitle of the section
-    serviceslist:
-      - title: Service Title
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
-      - title: Service Title
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. 
-      - title: Service title
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: Service title
-        content: >-
-          Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
-          justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
-          lorem ipsum, non efficitur urna viverra et.
-  - section_id: contact
-    component: contact_block.html
-    type: contactblock
-    title: Contact Us
-    subtitle: An optional subtitle of the section
+  # - section_id: services
+  #   component: services_block.html
+  #   type: servicesblock
+  #   title: What We Do
+  #   subtitle: An optional subtitle of the section
+  #   serviceslist:
+  #     - title: Service Title
+  #       content: >-
+  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #         ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
+  #         fringilla, fringilla tortor at, pulvinar orci.
+  #     - title: Service Title
+  #       content: >-
+  #         Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
+  #         a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
+  #         tincidunt ut tellus. Vivamus rhoncus mattis varius. 
+  #     - title: Service title
+  #       content: >-
+  #         Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
+  #         nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  #     - title: Service title
+  #       content: >-
+  #         Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
+  #         justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
+  #         lorem ipsum, non efficitur urna viverra et.
 menus:
   main:
     weight: 1
